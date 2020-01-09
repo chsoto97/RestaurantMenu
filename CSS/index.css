@@ -32,3 +32,88 @@ fieldset > span{
 	background-size: 20px 20px;
 	border: 1px solid #6278B0;
 }
+
+.formElement{
+	padding: 5px 10px;
+	width: 300px;
+}
+
+select[name="rate"]{
+	font-size: 14px;
+	width: 250px;
+}
+
+.clickable{
+	padding: 10px 20px;
+	font-size: 16px;
+	border: 0;
+	color: white;
+	border-radius: 5px;
+	margin-top: 10px;
+	text-align: center;
+}
+
+.clickable:hover{
+	cursor: pointer;
+	opacity: 0.8;
+}
+
+#submitBtn{
+	background-color: #56C56F;
+}
+
+#resetBtn{
+	background-color: #D9534F;
+}
+
+table{
+	border: 1px solid #eee;
+	margin: 10px auto;
+	border-collapse: collapse;
+}
+
+th, td{
+	color: #999;
+	border: 1px solid #eee;
+	padding: 15px 35px;
+}
+
+th{
+	background-color: #55B3C5;
+	color: white;
+	text-transform: uppercase;
+}
+
+td{
+	color: #999;
+}
+
+tr:hover{
+	background-color: #F4F4F4;
+}
+
+td:hover{
+	color: #555;
+}
+
+ul{
+	background-color: #ccc;
+	list-style: none;
+	overflow: hidden;
+}
+
+li{
+	float: left;
+	padding: 20px;
+}
+
+li > a{
+	text-decoration: none;
+	color: #4F545F;
+}
+
+li:hover, li>a:hover{
+	cursor: pointer;
+	color: white;
+	background-color: #999;
+}
